@@ -1,0 +1,87 @@
+.card {
+    box-shadow: 0 0 5px #2226;
+    border-radius: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.493);
+}
+
+.heart {
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    color: silver;
+    opacity: 0.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+.discount {
+    font-weight: 500;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.priceDiscount {
+    font-weight: 700;
+    color: rgba(255, 30, 0, 0.884);
+}
+
+.wight {
+    opacity: 0.5;
+}
+
+.btnWr {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btn {
+    padding: 7px 10px;
+    border: none;
+    color: inherit;
+    background-color: rgba(250, 225, 6);
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: rgb(250, 213, 4);
+    box-shadow: 0px 0px 3px 0.1px rgba(0, 0, 0, 0.527);
+}
+
+.tags {
+    position: absolute;
+    top: 0.9em;
+    left: 1em;
+}
+
+.new {
+    background-color: rgba(255, 30, 0, 0.884);
+    border-radius: 20px;
+    padding: 3px 10px 3px 10px;
+    color: white;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.other {
+    background-color: rgba(250, 225, 6);
+    border-radius: 20px;
+    padding: 3px 10px 3px 10px; 
+    font-weight: 600;
+    margin-right: 5px;   
+}
